@@ -11,9 +11,9 @@ Original file is located at
 #DAA_1511
 
 def busqueda_patron(cadena, patron_a_buscar):
-    for r in range(len(cadena) - len(patron_a_buscar) ):
+    for r in range(len(cadena)):
         for j in range(len(patron_a_buscar)):
-            if patron_a_buscar[j] == entrada[ r + j ]:
+            if patron_a_buscar[j] == entrada[  r + j ]:
                 pass
             else:
                 break
